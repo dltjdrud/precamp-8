@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Final Project</title>
+    <link href="final.css" rel="stylesheet"/>
+    <script>
+        function aaa(){
+
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="head__title">코드캠프 회원가입</div><br/>
+
+        <input id="email" type="text" placeholder="이메일을 입력해 주세요." oninput="checkValidation()" /><br/><br/>
+        <input id="name" type="text" placeholder="이름을 입력해 주세요." oninput="checkValidation()" /><br/><br/>
+        <input id="password1" type="password" placeholder="비밀번호를 입력해 주세요." oninput="checkValidation()" /><br/><br/>
+        <input id="password2" type="password" placeholder="비밀번호를 다시 입력해 주세요." oninput="checkValidation()" /><br/><br/>
+
+        <div>
+            <input id="phone1" type="text" size="3" oninput="changePhone1()" /> - 
+            <input id="phone2" type="text" size="4" oninput="changePhone2()" /> - 
+            <input id="phone3" type="text" size="4" maxlength="4"/><br/><br/>
+        </div>
+
+        <div>
+            <span id="qqq">000000</span>
+            <button disabled >인증번호 전송</button><br/><br/>
+        </div>
+
+        <div>
+            <span id="count">3:0</span>
+            <button disabled >인증확인</button><br/><br/>
+        </div>
+
+        <select>
+           <option selected disabled>지역을 선택하세요.</option>
+            <option>서울</option>
+            <option>인천</option>
+            <option>경기</option>
+        </select><br/><br/>
+
+        <input type="radio"/ name="aaa">여성 <input type="radio"/ name="aaa">남성<br/><br/>
+
+        <hr/><br/>
+
+        <button disabled >가입하기</button>
+    </div>
+
+</body>
+</html>
